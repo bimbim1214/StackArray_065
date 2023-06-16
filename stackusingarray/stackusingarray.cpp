@@ -71,3 +71,28 @@ int main() {
 		cout << "enter your choice";
 		cin >> ch;
 
+		switch (ch) {
+		case '1': {
+
+			s.push();
+			break;
+		}
+				break;
+		case '2':
+			if (s.empty()) {
+				cout << "\nstack is empty." << endl;
+			}
+			s.pop();
+			break;
+		case '3':
+			s.display();
+			break;
+		case '4':
+			return 0;
+		default:
+			cout << "\ninvalid choice." << endl;
+			break;
+		}
+
+	}
+}
