@@ -16,13 +16,15 @@ public:
 
 	void push() {
 		int element;
+		cout << "masukan element: ";
+		cin >> element;
 		if (top == 4) {
 			cout << "number of data exceed the limit" << endl;
 			return ;
 		}
 
 		top++;
-		stack_array[top];
+		stack_array[top] = element;
 		cout << endl;
 		cout << element << "ditambahkan(pushed)" << endl;
 
@@ -63,11 +65,11 @@ int main() {
 
 	while (true) {
 		cout << endl;
-		cout << "\nstack array\n";
-		cout << "\n1.push\n";
-		cout << "\n2.pop\n";
-		cout << "\n3.display\n";
-		cout << "\n4.exit\n";
+		cout << "stack array\n";
+		cout << "1.push\n";
+		cout << "2.pop\n";
+		cout << "3.display\n";
+		cout << "4.exit\n";
 		cout << "enter your choice";
 		cin >> ch;
 
