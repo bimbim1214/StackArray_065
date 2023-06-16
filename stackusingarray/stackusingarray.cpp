@@ -14,18 +14,19 @@ public:
 		top = -1;
 	}
 
-	int push(int element) {
+	void push() {
+		int element;
 		if (top == 4) {
 			cout << "number of data exceed the limit" << endl;
-			return 0;
+			return ;
 		}
 
 		top++;
-		stack_array[top] = element;
+		stack_array[top];
 		cout << endl;
 		cout << element << "ditambahkan(pushed)" << endl;
 
-		return element;
+		
 	}
 
 	void pop() {
@@ -54,3 +55,9 @@ public:
 		}
 	}
 };
+
+int main() {
+	stackArray s;
+	char ch;
+
+
