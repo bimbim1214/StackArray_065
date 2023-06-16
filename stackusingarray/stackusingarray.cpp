@@ -61,3 +61,13 @@ int main() {
 	char ch;
 
 
+	while (true) {
+		cout << endl;
+		cout << "\nstack array\n";
+		cout << "\n1.push\n";
+		cout << "\n2.pop\n";
+		cout << "\n3.display\n";
+		cout << "\n4.exit\n";
+		cout << "enter your choice";
+		cin >> ch;
+
