@@ -34,3 +34,9 @@ public:
 			return; //2.a
 		}
 
+		cout << "the popped element is : " << stack_array[top] << endl;
+		top--;//step 3 decrement
+	}
+
+	// method
+};
